@@ -4,21 +4,23 @@ a{
 
 h1{
     color:rgb(0, 0, 0);
-    padding-left: 12px;
-    padding-top: 0px;
-    padding-right: 8px;
-    margin: 24px 24px 60px 24px;
-    border-left: 1px solid #000;
+    margin-bottom: 60px;
     font-size: 36px;
 font-family: 'Spoqa Han Sans KR', sans-serif;
-
 }
-ul{
-    list-style: none;
-    padding-left: 12px;
-    padding-top: 0px;
-    padding-right: 8px;
-    margin: 24px 24px 60px 24px;
-    border-left: 1px solid #000;
+.a-toggle{
     font-size: 24px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 12px;
+}   
+.menu{
+    display:flex;
+}
+.photo{
+    display:flex;
+}
+.photo img{
+    width: 450px;
+    height: 800px;
 }

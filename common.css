@@ -8,19 +8,24 @@ h1{
     font-size: 36px;
 font-family: 'Spoqa Han Sans KR', sans-serif;
 }
+
 .a-toggle{
     font-size: 24px;
     border: 1px solid #000;
     border-radius: 10px;
     padding: 12px;
+    margin-right: 4;
 }   
 .menu{
-    display:flex;
+    display: flex;
+    margin-bottom: 40px;
 }
-.photo{
-    display:flex;
+.container{
+    display: flex;
+    overflow-x:auto; /* 안쓰면 다른 영역도 같이 움직임 */
 }
 .photo img{
     width: 450px;
     height: 800px;
 }
+

@@ -20,12 +20,22 @@ font-family: 'Spoqa Han Sans KR', sans-serif;
     display: flex;
     margin-bottom: 40px;
 }
-.container{
+.container {
     display: flex;
-    overflow-x:auto; /* 안쓰면 다른 영역도 같이 움직임 */
 }
-.photo img{
-    width: 450px;
-    height: 800px;
+.container .left, .container .right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
-
+.photo img {
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+    .container .left, .container .right {
+        width: 100%;
+    }
+}
